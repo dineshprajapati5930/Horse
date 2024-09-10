@@ -13,4 +13,3 @@ Route::post('register_form', [AuthController::class, 'store']);
 Route::get('login', [AuthController::class, 'authenticate']);
 // Route::get('login', [AuthController::class, 'login']);
 Route::get('dashboard', [AuthController::class, 'Dashboard']);
-Route::get('dashboard', [AuthController::class, 'Dashboard']);
